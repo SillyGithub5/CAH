@@ -1,3 +1,66 @@
+modes = {
+  "html":"html",
+  "css":"css",
+  "js":"javascript",
+  "py":"python",
+  "java":"java",
+  "c":"c_cpp",
+  "cpp":"c_cpp",
+  "cs":"csharp",
+  "json":"json",
+  "svg":"html",
+  "csv":"text",
+  "txt":"text"
+}
+
+filetypes = {
+  "html":"text/html",
+  "css":"text/css",
+  "js":"text/javascript",
+  "py":"text/x-python-script",
+  "java":"text/plain",
+  "c":"text/plain",
+  "cpp":"text/plain",
+  "cs":"text/plain",
+  "json":"application/json",
+  "svg":"image/svg+xml",
+  "csv":"text/csv",
+  "txt":"text/plain"
+}
+
+filestarts = {
+  "html":"""<!DOCTYPE html>
+<html>
+	<head></head>
+	<body></body>
+</html>""",
+  "css":"""body {
+}""",
+  "js":"",
+  "py":"",
+  "java":"""public class FILENAME {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}""",
+  "c":"""#include <stdio.h>
+
+int main(void) {
+  printf("Hello World");
+  return 0;
+}""",
+  "cpp":"""#include <iostream>
+
+int main() {
+  std::cout << "Hello World!";
+}""",
+  "cs":"""using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Hello World");
+  }
+}
 WHITE=['The blood of christ.', 'A 	middle aged man on roller skates','Being able to talk to elephants.', 'Diversity.', 'Vladimir Putin.','Having chips for eyes','the man who stole my wife', 'Poor life choices.', 'Multiple stab wounds.', 'Some punk kid who stole my turkey sandwich.', 'Getting married, having a few kids, buying some stuff,retiring to Florida, and dying.', 'Pictures of boobs.', 'Old-people smell.','Not wearing pants.', 'Racism.', 'World peace.', 'Having big dreams but no realistic way to achieve them.', 'An AR-15 assault rifle.', 'Former President George W. Bush.','Her Majesty, Queen Elizabeth II.', 'Wondering if it’s possible to get some of that salsa to go.', 'All-you-can-eat shrimp for $8.99.', 'Holding down a child and farting all over him.', 'The wrath of vladimir putin', 'Count Chocula.', 'Invading Poland.', 'My Vagina', 'This brand new table', 'My PornHub Premium']
 BLACK=['I’m going on a cleanse this week. Nothing but kale juice and','The J.K. Rowling book Harry Potter and the chamber of','When I am President, I will create the Department of', 'Hey guys, welcome to Chili’s! Would you like to start the night off right with?', 'When I am a billionaire, I shall erect a 50-foot statue to commemorate', 'I’m sorry, Professor, but I couldn’t complete my homework because of', 'This is the way the world ends This is the way the world ends Not with a bang but with', 'Just saw this upsetting video! Please retweet!! #stop', 'The class field trip was completely ruined by', 'But before I kill you, Mr. Bond I must show you', 'Here is the church Here is the steeple Open the doors And there is','What is George W. Bush thinking about right now?', 'What ended my last relationship?','When Pharaoh remained unmoved, Moses called down a Plague of', 'No matter what people tell me I will never believe that God created', 'Can i have some money for', 'I`m no doctor but im pretty sure what your suffering from is called', 'My fellow Americans: Before this decade is out, we will have', 'This year i gave the children', 'Yesterday I saw a very wet', '50% of all marriages end in']
 WHITE=['The blood of christ.', 'A 	middle aged man on roller skates','Being able to talk to elephants.', 'Diversity.', 'Vladimir Putin.','Having chips for eyes','the man who stole my wife', 'Poor life choices.', 'Multiple stab wounds.', 'Some punk kid who stole my turkey sandwich.', 'Getting married, having a few kids, buying some stuff,retiring to Florida, and dying.', 'Pictures of boobs.', 'Old-people smell.','Not wearing pants.', 'Racism.', 'World peace.', 'Having big dreams but no realistic way to achieve them.', 'An AR-15 assault rifle.', 'Former President George W. Bush.','Her Majesty, Queen Elizabeth II.', 'Wondering if it’s possible to get some of that salsa to go.', 'All-you-can-eat shrimp for $8.99.', 'Holding down a child and farting all over him.', 'The wrath of vladimir putin', 'Count Chocula.', 'Invading Poland.', 'My Vagina', 'This brand new table', 'My PornHub Premium']
